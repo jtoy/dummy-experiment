@@ -1,0 +1,24 @@
+[General]
+git = https://github.com/jtoy/dummy-experiment.git
+name = dummy experiment to test with
+paper = http://arxiv.org/some/neat/paper
+author = somebody@someplace.org
+
+[Initialize]
+command = ls
+workspace = /home/ubuntu/neural-style/somatic/init
+
+[Train]
+command = ls
+workspace = /home/ubuntu/neural-style/somatic/train
+
+[Test]
+command = ls
+workspace = /home/ubuntu/neural-style/somatic/test
+input = text
+output = text
+mode = sync
+
+[AWSOptions]
+shutdown_after_run = true
+something_else = false
