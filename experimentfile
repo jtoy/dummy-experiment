@@ -1,21 +1,28 @@
-[General]
-git = https://github.com/jtoy/dummy-experiment.git
-name = dummy experiment to test with
-paper = http://arxiv.org/some/neat/paper
-author = somebody@someplace.org
+General:
+  git: https://github.com/somaticio/neural-style.git
+  name: Somatic.io Demo for Neural Style deep learning project
+  paper: http://arxiv.org/some/neat/paper
+  author: somebody@someplace.org
 
-[Initialize]
-command = ls
+Initialize:
+  command: ls
+  workspace: tests/testdir
 
-[Train]
-command = ls
+Train:
+  command: echo 'hello model' >  model
 
-[Test]
-command = ls
-input = text
-output = text
-mode = sync
+Test:
+  command: echo 
+  input: text
+  output: text
+  mode: sync
 
-[AWSOptions]
-shutdown_after_run = true
-something_else = false
+AWSOptions:
+  shutdown_after_run: true
+  something_else: false
+
+parameters:
+  n:
+    type: text
+    required: true
+    flag: -n
