@@ -6,15 +6,12 @@ author = somebody@someplace.org
 
 [Initialize]
 command = ls
-workspace = /home/ubuntu/neural-style/somatic/init
 
 [Train]
 command = ls
-workspace = /home/ubuntu/neural-style/somatic/train
 
 [Test]
 command = ls
-workspace = /home/ubuntu/neural-style/somatic/test
 input = text
 output = text
 mode = sync
