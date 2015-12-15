@@ -1,5 +1,5 @@
 General:
-  git: https://github.com/somaticio/neural-style.git
+  git: https://github.com/random/repo.git
   name: Somatic.io Demo for Neural Style deep learning project
   paper: http://arxiv.org/some/neat/paper
   author: somebody@someplace.org
@@ -26,3 +26,7 @@ parameters:
     type: text
     required: true
     flag: -n
+  name:
+    type: text
+    required: true
+    flag: -name
