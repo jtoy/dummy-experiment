@@ -12,7 +12,7 @@ Train:
   command: echo 'hello model' >  model
 
 Test:
-  command: echo 
+  command: fakecommand
   input: text
   output: text
   mode: sync
